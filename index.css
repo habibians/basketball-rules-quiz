@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 /* Grey box for place holders */
@@ -33,6 +33,16 @@ header {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.quiz-info {
+    display: block;
+    text-align: center;
+}
+
+.quiz-questions {
+    display: block;
+    text-align: center;
 }
 
 /* Quiz start screen styling */
