@@ -27,7 +27,7 @@ header {
     padding: 30px 0;
 }
 
-.quiz-title {
+.quizTitle {
     font-size: 20px;
     display: block;
     text-align: center;
@@ -35,15 +35,19 @@ header {
     margin-right: auto;
 }
 
-.quiz-info {
+.quizStats {
     display: block;
     text-align: center;
 }
 
-.quiz-questions {
+.quizSubTitle {
     display: block;
     text-align: center;
 }
 
 /* Quiz start screen styling */
 
+.quizQuestions {
+    display: none;
+    text-align: center;
+}

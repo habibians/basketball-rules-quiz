@@ -8,6 +8,7 @@
   <title>Basketball Rules Quiz</title>
   <meta name="description" content="Test your knowledge of basketball rules!">
   <link href="index.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="index.js"></script>
 </head>
 
@@ -16,16 +17,16 @@
 <header role="banner">
 
   <div class="greybox">
-    <div class="quiz-title">
+    <div class="quizTitle">
       <h1>Basketball Violations Quiz</h1>
     </div>
   </div>
 
   <div class="greybox">
-    <div class="quiz-info">
+    <div class="quizStats">
       <ul>
-        <li>Question #:</li>
-        <li>Score:</li>
+        <li>Question: <span class="questionNumber">0</span>/6</li>
+        <li>Score: <span class="score">0</span></li>
       </ul>
     </div>
   </div>
@@ -34,14 +35,14 @@
 
 <main role="main">
   <div class="greybox">
-    <div class="quiz-questions">
-      <h2>What's the call, ref?</h2>
+
+    <div class="quizSubTitle">
+      <h2>Test your knowledge of basketball violations</h2>
       <button type="button" class="startButton">Game on!</button>
     </div>
+    <div class="quizQuestions"></div>
+
   </div>
-
 </main>
-
 </body>
-
 </html>
